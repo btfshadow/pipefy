@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pipefy api test"
+version = "0.1.0"
+description = "Projeto de teste da pipefy"
+authors = ["Sophia Simões Gonçalves <thiago.sgoncalves@pagar.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.2.1"
+python-dotenv = "^0.21.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
